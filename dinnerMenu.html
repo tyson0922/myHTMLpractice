@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        th {text-align: left ; vertical-align: top ; font-style:inherit;}
+
+</style>
+<head>
+    <title>저녁 메뉴 고르기</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <보강일정>
+            </legend>
+            <table border="1">
+                <tr>
+                    <th>[정보통신]</th>
+                    <td>4/8(월)</td>
+                    <td>5/14(화)</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">[직업과 경력개발]</th>
+                    <td>4/10(수)</td>
+                    <td rowspan="3">6/26(수)</td>
+                </tr>
+                <tr>
+                    <td>5/1(수)</td>
+                </tr>
+                <tr>
+                    <td>5/15(수)</td>
+                </tr>
+                <tr>
+                    <th>[프로그램 언어실습]</th>
+                    <td>5/1(수)</td>
+                    <td>5/3(금)</td>
+                </tr>
+                <tr>
+                    <th>[운영체제 실습]</th>
+                    <td>5/3(금)</td>
+                    <td>6/28(금)</td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>저녁 메뉴 고르기</legend>
+            <table border="1">
+                <tr>
+                    <th>이름 <input type="text"></th>
+                    <td>안먹는 사람<input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>성별
+                        <select>
+                            <option>남</option>
+                            <option>여</option>
+                        </select>
+                    </td>
+                    <td rowspan="2" input="text"><textarea>Text(게시판)</textarea></td>
+                </tr>
+                <tr>
+                    <td>메뉴
+                        <input type="radio" name="menuType">한식
+                        <input type="radio" name="menuType">양식
+                        <input type="radio" name="menuType">일식
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <footer>
+        빈칸
+    </footer>
+</body>
+
+</html>
