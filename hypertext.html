@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Basic</title>
+    <style>
+        
+        ul>li.banana {color:red}
+        table#table1 {color:purple; background:grey;}
+        table thead tr th {color:green}
+        .table2 tr:nth-child(3) {color:blue; background:purple;}
+        div {width:100%; height:300px;border:10px solid black; padding:20px; padding:red; margin:20px; margin: green;}
+        .box {width: 100px; height:100px; background-color:red;}
+        .box {margin:0 30px; padding:0 30px; z-index:50;}
+        .box2 {width:100px; height:100px; background-color: yellow; z-index:90}
+        .box3 {width:100px; height:100px; background-color: orange; z-index:10}
+        .box, .box2, .box3 {border:20px dashed green; border-radius:20px}
+        .box {position:absolute;left:10px; top:10px}
+        .box2 {position:absolute;left:40px; top:50px}
+        .box3 {position:scroll;left:90px; top:90px}
+        .gradient {position:fixed; left:100px; top:100px; width:100px; height:100px; background:linear-gradient(45deg, green 0%, yellow 50%, skyblue 100%)}
+
+
+
+    </style>
+</head>
+<body>
+    <a href="http://www.hanbit.co.kr">한빛</a>
+    
+    
+    <ul>
+        <li>
+            <b>fruit</b>
+            <ul>
+                <li class="banana">banana</li>
+                <li>apple</li>
+                <li>grape</li>
+            </ul>
+        </li>
+        <li>
+            <b>turn</b>
+            <ol>
+                <li>first</li>
+                <li>second</li>
+            </ol> 
+        </li>
+        <table border="1" id="table1">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1교시</td>
+                    <td>영어</td>
+                    <td>국어</td>
+                    <td>과학</td>
+                    <td>미술</td>
+                    <td>기술</td>
+                </tr>
+                <tr>
+                    <td>2교시</td>
+                    <td>도덕</td>
+                    <td>체육</td>
+                    <td>영어</td>
+                    <td>수학</td>
+                    <td>사회</td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="1" class="table2">
+            <thead>
+                <tr>
+                    <th colspan="2">지역별 홍차</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3">중국</th>
+                    <td>정산소종</td>
+                </tr>
+                <tr>
+                    <td>기문</td>
+                </tr>
+                <tr>
+                    <td>운남</td>
+                </tr>
+                <tr>
+                    <th rowspan="4">인도 및 스리랑카</th>
+                    <td>아삼</td>
+                </tr>
+                <tr>
+                    <td>실론</td>
+                </tr>
+                <tr>
+                    <td>다질링</td>
+                </tr>
+                <tr>
+                    <td>닐기리</td>
+                </tr>
+                
+            </tbody>
+        </table>
+           
+    </ul>
+    <img src="Penguins.jpg" alt="팽귄">
+    <img src="Nothing" alt="그림이 존재하지 않습니다.">
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+    <form method="get">이름 제출
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="text" name="text" value="text">
+        <br>
+        <input type="password" name="userpassword" value="password">
+        <br>
+        <input type="file" name="file" value="file">
+        <br>
+        <input type="checkbox" name="checkbox" value="checkbox">
+        <br>
+        <input type="radio" name="radio" value="radio">
+
+        <input type="hidden" name="hidden" value="hidden">
+        <br>
+
+        <input type="button" value="button">
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+
+        <select>
+            <optgroup label="HTML5">
+                <option>Multimedia Tag</option>
+                <option>Connectivity</option>
+                <optino>Device Access</optino>
+            </optgroup>
+            <optgroup label="CSS3">
+                <option>Animation</option>
+                <option>3D Transform</option>
+            </optgroup>
+        </select>
+        
+    </form>
+    <div>
+        <h3>Hello My name is Tyson</h3>
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="gradient"></div>
+</body>
+</html>
