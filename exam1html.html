@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커뮤니케이션 인기글</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3E3D4A;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+        }
+        .sidebar {
+            background-color: #FF7F6E;
+            width: 30%;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .sidebar h2 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .sidebar .category {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar .category button {
+            background-color: #F98F7E;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .main-content {
+            width: 70%;
+            padding-left: 20px;
+        }
+        .main-content h2 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .post-header {
+            display: flex;
+            align-items: center;
+        }
+        .post-header img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .post-header .author {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .post-header .date {
+            font-size: 12px;
+            color: grey;
+            margin-left: auto;
+        }
+        .post-content {
+            margin: 10px 0;
+        }
+        .post-category {
+            background-color: #A1DFB7;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        .post-category.orange {
+            background-color: #FFA07A;
+        }
+        .post-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .post-footer div {
+            display: flex;
+            align-items: center;
+        }
+        .post-footer div span {
+            margin-left: 5px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button-container button {
+            background-color: #40E0D0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>카테고리를 사용해 자세히 알아보세요</h2>
+            <div class="category">
+                <button>교육</button>
+                <button>교육</button>
+                <button>교육</button>
+                <button>교육</button>
+                <button>기타</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <h2>커뮤니케이션 인기글</h2>
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/50" alt="Author">
+                    <div class="author">구*식</div>
+                    <div class="date">2023-05-04 10:00:22</div>
+                </div>
+                <div class="post-content">
+                    동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+                </div>
+                <div class="post-category">교육</div>
+                <div class="post-footer">
+                    <div><img src="https://via.placeholder.com/20" alt="Like"><span>0</span></div>
+                    <div><img src="https://via.placeholder.com/20" alt="Comment"><span>6</span></div>
+                    <div><img src="https://via.placeholder.com/20" alt="Share"></div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/50" alt="Author">
+                    <div class="author">구*식</div>
+                    <div class="date">2023-05-04 10:00:22</div>
+                </div>
+                <div class="post-content">
+                    동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+                </div>
+                <div class="post-category orange">기타</div>
+                <div class="post-footer">
+                    <div><img src="https://via.placeholder.com/20" alt="Like"><span>0</span></div>
+                    <div><img src="https://via.placeholder.com/20" alt="Comment"><span>6</span></div>
+                    <div><img src="https://via.placeholder.com/20" alt="Share"></div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/50" alt="Author">
+                    <div class="author">구*식</div>
+                    <div class="date">2023-05-04 10:00:22</div>
+                </div>
+                <div class="post-content">
+                    동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+                </div>
+                <div class="post-category">교육</div>
+                <div class="post-footer">
+                    <div><img src="https://via.placeholder.com/20" alt="Like"><span>0</span></div>
+                    <div><img src="https://via.placeholder.com/20" alt="Comment"><span>6</span></div>
+                    <div><img src="https://via.placeholder.com/20" alt="Share"></div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button>커뮤니티 바로가기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
